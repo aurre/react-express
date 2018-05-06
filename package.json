@@ -1,0 +1,20 @@
+{
+  "name": "js_practice",
+  "version": "1.0.0",
+  "description": "todo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Raysa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "volleyball": "^1.5.0"
+  }
+}
