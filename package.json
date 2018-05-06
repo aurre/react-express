@@ -1,11 +1,12 @@
 {
-  "name": "js_practice",
+  "name": "backend",
   "version": "1.0.0",
   "description": "todo",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [
     "todo"
@@ -13,8 +14,12 @@
   "author": "Raysa",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
     "express": "^4.16.3",
+    "pg": "^7.4.2",
+    "sequelize": "^4.37.6",
     "volleyball": "^1.5.0"
   }
 }
