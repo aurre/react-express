@@ -1,6 +1,6 @@
 'use strict'
 
-const data = require('./data').default
+const data = require('./data')
 const express = require('express')
 const volleyball = require('volleyball')
 const bodyParser = require('body-parser')
